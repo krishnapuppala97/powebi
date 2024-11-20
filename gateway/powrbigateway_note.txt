@@ -1,0 +1,23 @@
+power bi gateway
+-------------
+1. crate a windows server in  private/pubilc subnet same vpc (db).
+
+2. if ur windows server created in private subnet 
+   a. crate ssm vpc endpoint
+   b. instace attch role / role have ssm policy
+   c. 443 enable in vpc level
+   d. need to congigure our aws cli with access key and secret key
+   e. u should install ssm agent our loacall
+
+ref doc: https://medium.com/nttdatacloud/connect-to-windows-ec2-instances-in-a-private-subnet-on-aws-by-system-manager-instead-of-bastion-d5d3e632c987
+
+install gateway
+
+https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-install
+
+install certificate in windows local
+Connecting Power BI to AWS RDS PostgreSQL
+
+https://www.saurabha.com/connecting-power-bi-to-aws-rds-postgresql/#:~:text=Connecting%20Power%20BI%20to%20AWS%20RDS%20PostgreSQL%201,Step%204%3A%20Apply%20certificate%20to%20your%20Laptop%20
+
+
